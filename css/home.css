@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+}
+.navbar {
+  background: linear-gradient(to bottom, #0b091c, #1e1a3d, #1b1b33);
+  color: white;
+}
+.logout {
+  color: white;
+}
+.logout:hover {
+  color: white;
+}
+.navbar-toggler {
+  background-color: white;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 2px white;
+}
+@media screen and (max-width: 991px) {
+  .navbar-toggler {
+    margin-bottom: 10px;
+  }
+}
+.mazen {
+  color: white;
+  background-color: #0b091c;
+  border-radius: 20px;
+}
